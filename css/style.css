@@ -1,0 +1,150 @@
+/* Ok. Going to be honest. I realized there were some problems with my HTML only AFTER i had "finished". I went and fixed it and then everything went all screwed and i couldnt be bothered. looks close enough. or atleast it should */
+
+
+/* Universal */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  padding-left: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-flex;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin:  auto;
+
+}
+
+/* Mission */
+
+.jumbotron {
+  display: flex;
+  background-image: url(D:/TeaCozy/resources/mission.jpg);
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+
+  background-color: black;
+  width: 100%;
+
+}
+
+/* Monthly */
+
+.monthly {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.monthly img {
+  width: 300px;
+  height: 200px;
+}
+
+.monthly .banner {
+  width: 100%;
+
+}
+
+
+/* Locations */
+
+/* I can't seem to center the .location-content within the .location div */
+.locations {
+  background-image: url(D:/TeaCozy/resources/loacations.jpg);
+  margin: 0 auto;
+  width: 1200px;
+  height: 560px;
+
+}
+
+.locations .banner {
+  display: flex;
+  justify-content: center;
+
+}
+
+.location-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.address {
+  background-color: black;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+/* QUESTIOn!!! is there a better way to do this spacing. I tried with flexbox but i'm too dumb. I'm basically just moving things around with positional declarations*/
+
+.street {
+  height: 50px;
+}
+
+.area {
+  height: 50px;
+}
+
+/* question over */
+
+/* Footer */
+
+/* Here, with the footer banner, the text is already perfectly spaced. But in the location-content everything was weirdly space. */
+footer .banner {
+  height: 200px;
+}
+
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+
+}
